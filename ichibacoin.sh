@@ -1,5 +1,4 @@
 #!/bin/bash
-#  bash <(curl -Ls https://raw.githubusercontent.com/pdigy1/MNs/master/ichibacoin.sh)
 #This script work was created by SBurns of the Null Entry Project
 #And possible follow/fork from https://github.com/sburns1369/
 #If anyone recycles please leave credit to the author somewhere
