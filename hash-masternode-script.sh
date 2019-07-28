@@ -39,8 +39,10 @@ read DOSETUPTWO
 if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 hash-cli stop > /dev/null 2>&1
-wget http://45.77.117.180/files/hashd -O /usr/local/bin/hashd
-wget http://45.77.117.180/files/hash-cli -O /usr/local/bin/hash-cli
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/n6-XOKyuyy4Pfg -O /usr/local/bin/hashd
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/X5b5Tkqx1OjWpA -O /usr/local/bin/hash-cli
+chmod +x /usr/local/bin/hash*
+
 chmod +x /usr/local/bin/hash*
 
 fi
