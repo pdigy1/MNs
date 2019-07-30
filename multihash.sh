@@ -80,8 +80,8 @@ systemctl enable $alias
 #update chain files get snapshot
 cd /home/$alias
 wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/qiLeOWADsbDaiA -O hashsnapshot.zip
-unzip hashsnapsot.zip
-rm hashsnapsot.zip
+unzip hashsnapshot.zip
+rm hashsnapshot.zip
 #make conf file
 cd .hash
 echo "rpcuser=$rpcuser" >> hash.conf
