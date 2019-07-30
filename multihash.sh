@@ -79,7 +79,7 @@ echo "WantedBy=multi-user.target" >> $alias.service
 systemctl enable $alias
 #update chain files get snapshot
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/qiLeOWADsbDaiA -O hashsnapshot.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/38Al6_bHqKsOdg -O hashsnapshot.zip
 unzip hashsnapshot.zip
 rm hashsnapshot.zip
 #make conf file
