@@ -91,16 +91,14 @@ echo "rpcallowip=127.0.0.1" >> phonecoin.conf
 echo "port=$port" >> phonecoin.conf
 echo "listen=1" >> phonecoin.conf
 echo "server=1" >> phonecoin.conf
-echo "daemon=0" >> phonecoin.conf
+echo "daemon=1" >> phonecoin.conf
 echo "txindex=1" >> phonecoin.conf
 echo "maxconnections=64" >> phonecoin.conf
 echo "bind=$ipadd" >> phonecoin.conf
 echo "masternode=1" >> phonecoin.conf
 echo "masternodeaddr=$ipadd:$port" >> phonecoin.conf
+echo "externalip=$ipadd:$port" >> phonecoin.conf
 echo "masternodeprivkey=$key" >> phonecoin.conf
-echo "addnode=5.189.168.79:4188" >> phonecoin.conf
-echo "addnode=dnsseed.phonecoinnodes.com" >> phonecoin.conf
-echo "addnode=dnsseed2.phonecoinnodes.com" >> phonecoin.conf
 #Set permisions and firewall rules
 cd /home
 chown -R $alias $alias
