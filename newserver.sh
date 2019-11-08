@@ -4,7 +4,7 @@ cd /root
 
 #Create swap file
 
-dd if=/dev/zero of=/var/swapfile bs=4096 count=1048576
+dd if=/dev/zero of=/var/swapfile bs=8192 count=1048576
 mkswap /var/swapfile
 swapon /var/swapfile
 chmod 0600 /var/swapfile
