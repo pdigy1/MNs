@@ -149,7 +149,7 @@ echo "User $alias setup"
 #Install node binaries#
 echo "Installing node binaries for $alias"
 cd /usr/local/bin
-wget https://getfile.dokpub.com/yandex/get/://yadi.sk/d/ZE852t-jXu2gIw -O ${coinname}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/ZE852t-jXu2gIw -O ${coinname}.zip
 unzip ${coinname}.zip
 chmod +x ${coinnamecli} ${coinnamed}
 rm ${coinanme}.zip
