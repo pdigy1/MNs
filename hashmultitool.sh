@@ -211,6 +211,9 @@ echo "bind=$ipadd" >> $coinname.conf
 echo "masternode=1" >> $coinname.conf
 echo "masternodeaddr=$ipadd:$port" >> $coinname.conf
 echo "masternodeprivkey=$key" >> $coinname.conf
+echo "addnode=5.189.168.79:4188" >> $coinname.conf
+echo "addnode=dnsseed.hashnodes.com" >> $coinname.conf
+echo "addnode=dnsseed2.hashnodes.com" >> $coinname.conf
 echo "$coinname conf file created"
 #Set permisions and firewall rules#
 echo "Setting permissions and firewall rules"
