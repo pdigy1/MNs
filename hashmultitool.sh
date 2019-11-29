@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget ${snapshot} -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/38Al6_bHqKsOdg -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
