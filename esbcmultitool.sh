@@ -6,7 +6,7 @@ coinnamecli=esbcoin-cli
 ticker=esbcoin
 coindir=esbcoin
 binaries='https://yadi.sk/d/h1TVzUkJkZBsiw'
-snapshot='https://yadi.sk/d/whyeU4SizvjObA'
+snapshot='https://yadi.sk/d/ccMXQltpji05jg'
 port=32322
 rpcport=32331
 pass=`pwgen 14 1 b`
@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/DhI8xbvF2TY4Ng -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/ccMXQltpji05jg -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
