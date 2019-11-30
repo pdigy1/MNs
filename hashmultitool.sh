@@ -19,7 +19,7 @@ apt install zip unzip -y -y
 echo "Making sure your VPS is up to date"
 apt update -y
 echo "zip tool downloaded and apt update completed"
-echo -e '\e[4mWelcome to the hashCoin Multitools\e[24m'
+echo -e '\e[4mWelcome to the hash Multitools\e[24m'
 echo "Please pick a number from the list to start tool"
 echo "1 - Wallet update"
 echo "2 - Chain repair"
