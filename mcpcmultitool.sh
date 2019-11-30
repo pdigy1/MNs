@@ -6,7 +6,7 @@ coinnamecli=MCPCoin-cli
 ticker=MCPCoin
 coindir=MCPCoin
 binaries='https://yadi.sk/d/OiC2WP3TT6ozyQ'
-snapshot='https://yadi.sk/d/whyeU4SizvjObA'
+snapshot='https://yadi.sk/d/4fMd4-nkEbb1Ow'
 port=49451
 rpcport=49452
 pass=`pwgen 14 1 b`
@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/whyeU4SizvjObA -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/4fMd4-nkEbb1Ow -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
