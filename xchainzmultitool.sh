@@ -6,9 +6,9 @@ coinnamecli=xchainz-cli
 ticker=xchainz
 coindir=xchainz
 binaries='https://yadi.sk/d/09wdwdlg5akRXg'
-snapshot='https://yadi.sk/d/RHJnns9ZmEERkQ'
-port=12260
-rpcport=12259
+snapshot='https://yadi.sk/d/-577PG7I6_78aw'
+port=14815
+rpcport=14814
 pass=`pwgen 14 1 b`
 rpcuser=`pwgen 14 1 b`
 rpcpass=`pwgen 36 1 b`
@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/RHJnns9ZmEERkQ -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/-577PG7I6_78aw -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
