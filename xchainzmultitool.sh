@@ -5,7 +5,7 @@ coinnamed=xchainzd
 coinnamecli=xchainz-cli
 ticker=xchainz
 coindir=xchainz
-binaries='https://yadi.sk/d/i0yg9wu6XHfGwQ'
+binaries='https://yadi.sk/d/09wdwdlg5akRXg'
 snapshot='https://yadi.sk/d/RHJnns9ZmEERkQ'
 port=12260
 rpcport=12259
@@ -149,7 +149,7 @@ echo "User $alias setup"
 #Install node binaries#
 echo "Installing node binaries for $alias"
 cd /usr/local/bin
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/i0yg9wu6XHfGwQ -O ${coinname}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/09wdwdlg5akRXg -O ${coinname}.zip
 unzip ${coinname}.zip
 chmod +x ${coinnamecli} ${coinnamed}
 rm ${coinanme}.zip
