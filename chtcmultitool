@@ -5,7 +5,7 @@ coinnamed=chtcd
 coinnamecli=chtc-cli
 ticker=chtc
 coindir=chtc
-binaries='https://yadi.sk/d/h1TVzUkJkZBsiw'
+binaries='https://yadi.sk/d/i0yg9wu6XHfGwQ'
 snapshot='https://yadi.sk/d/ccMXQltpji05jg'
 port=12260
 rpcport=12259
@@ -149,7 +149,7 @@ echo "User $alias setup"
 #Install node binaries#
 echo "Installing node binaries for $alias"
 cd /usr/local/bin
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/h1TVzUkJkZBsiw -O ${coinname}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/i0yg9wu6XHfGwQ -O ${coinname}.zip
 unzip ${coinname}.zip
 chmod +x ${coinnamecli} ${coinnamed}
 rm ${coinanme}.zip
