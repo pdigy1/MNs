@@ -5,7 +5,7 @@ coinnamed=monkeyd
 coinnamecli=monkey-cli
 ticker=monkey
 coindir=monkey
-binaries='https://yadi.sk/d/_6xPQjA0vey8wA'
+binaries='https://yadi.sk/d/6WAzoTjN28Gmaw'
 snapshot='https://yadi.sk/d/E23Po8etuwvH6A'
 port=37233
 rpcport=37232
@@ -149,7 +149,7 @@ echo "User $alias setup"
 #Install node binaries#
 echo "Installing node binaries for $alias"
 cd /usr/local/bin
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/_6xPQjA0vey8wA -O ${coinname}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/6WAzoTjN28Gmaw -O ${coinname}.zip
 unzip ${coinname}.zip
 chmod +x ${coinnamecli} ${coinnamed}
 rm ${coinanme}.zip
