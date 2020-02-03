@@ -6,7 +6,7 @@ coinnamecli=monkey-cli
 ticker=monkey
 coindir=monkey
 binaries='https://yadi.sk/d/_6xPQjA0vey8wA'
-snapshot='https://yadi.sk/d/hg2Z1ayGrjghdg'
+snapshot='https://yadi.sk/d/E23Po8etuwvH6A'
 port=37233
 rpcport=37232
 pass=`pwgen 14 1 b`
@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/hg2Z1ayGrjghdg -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/E23Po8etuwvH6A -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
