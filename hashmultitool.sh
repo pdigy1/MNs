@@ -5,8 +5,8 @@ coinnamed=hashd
 coinnamecli=hash-cli
 ticker=hash
 coindir=hash
-binaries='https://yadi.sk/d/ZE852t-jXu2gIw'
-snapshot='https://yadi.sk/d/38Al6_bHqKsOdg'
+binaries='https://yadi.sk/d/Y7UXkGJjmXGxOg'
+snapshot='https://yadi.sk/d/ZE852t-jXu2gIw'
 port=4188
 rpcport=4189
 pass=`pwgen 14 1 b`
@@ -149,7 +149,7 @@ echo "User $alias setup"
 #Install node binaries#
 echo "Installing node binaries for $alias"
 cd /usr/local/bin
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/ZE852t-jXu2gIw -O ${coinname}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/Y7UXkGJjmXGxOg -O ${coinname}.zip
 unzip ${coinname}.zip
 chmod +x ${coinnamecli} ${coinnamed}
 rm ${coinanme}.zip
@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/38Al6_bHqKsOdg -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/ZE852t-jXu2gIw -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
