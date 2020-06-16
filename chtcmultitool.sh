@@ -6,7 +6,7 @@ coinnamecli=chtc-cli
 ticker=chtc
 coindir=chtc
 binaries='https://yadi.sk/d/i0yg9wu6XHfGwQ'
-snapshot='https://yadi.sk/d/RHJnns9ZmEERkQ'
+snapshot='https://yadi.sk/d/zqEim3BIg8qLHA'
 port=12260
 rpcport=12259
 pass=`pwgen 14 1 b`
@@ -190,7 +190,7 @@ echo "Service setup and enabled"
 #update chain files get snapshot#
 echo "Downloading $coinname snapshot"
 cd /home/$alias
-wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/RHJnns9ZmEERkQ -O ${coindir}.zip
+wget https://getfile.dokpub.com/yandex/get/https://yadi.sk/d/zqEim3BIg8qLHA -O ${coindir}.zip
 unzip ${coindir}.zip
 rm ${coindir}.zip
 echo "$coinname snapshot downloaded and unpacked"
